@@ -1,17 +1,16 @@
 
 public class HelloWorld {
 
-	public static void printMessage(String message) {
+	public static void main(String[] args) {
 		
-		System.out.println(message);
-	}
-	
-	public static void main (String[] args) {
+		String x = "You are really pretty!";
+		String y = "Will you go on a date with me?";
 		
-		String message = "Hello World!";
-		printMessage(message);
-
+		System.out.println(x);
+		System.out.println(y);
 	}
-	
 
-}
+} 
+
+
+r
